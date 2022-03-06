@@ -120,7 +120,7 @@ int LocateElem(LinkList L, ElemType e)
 Status ListInsert(LinkList* L, int i/*插入的下标*/, ElemType e/*插入的元素*/)
 {
 	int j;
-	LinkList p, s;
+	LinkList p, s; 
 	p = *L;
 	j = 1;
 	while (p && (j < i))     /* 寻找第i个结点 */
